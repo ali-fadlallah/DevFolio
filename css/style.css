@@ -1,0 +1,838 @@
+body {
+
+    background-color: #f5f5f5;
+    box-sizing      : border-box;
+}
+
+.arrow-home {
+
+    position  : fixed;
+    width     : 40px;
+    height    : 40px;
+    bottom    : 10px;
+    right     : 10px;
+    text-align: center;
+
+}
+
+
+/* Nav-Bar */
+
+.navbar {
+
+    z-index: 9999999;
+}
+
+
+#navbarNav ul li .line-opacity {
+
+    width           : 70%;
+    height          : 2px;
+    background-color: white;
+    opacity         : 1;
+    margin          : 0px 10px;
+
+}
+
+#navbarNav ul li .line {
+
+    width           : 0%;
+    height          : 2px;
+    background-color: white;
+    opacity         : 0;
+    margin          : 0px 10px;
+    transition      : all 0.5s ease-in-out;
+
+}
+
+#navbarNav ul li:hover .line {
+
+    opacity: 1;
+    width  : 70%;
+
+}
+
+
+.dropdown-menu li {
+    position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+    display : none;
+    position: absolute;
+    right   : 100%;
+    top     : -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left : auto;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+    display: block;
+}
+
+
+/* Header */
+
+header {
+
+    background-image     : url(../images/hero-bg.jpg);
+    background-size      : cover;
+    background-position  : center;
+    background-attachment: fixed;
+
+}
+
+header h2::after {
+
+    content  : " ";
+    animation: typedanimation 15s infinite;
+}
+
+@keyframes typedanimation {
+
+
+    0% {
+
+        content: "|";
+
+    }
+
+    1% {
+
+        content: "|";
+
+    }
+
+    2% {
+
+        content: "F|";
+
+    }
+
+    3% {
+
+        content: "Fr|";
+
+    }
+
+    4% {
+
+        content: "Fre|";
+
+    }
+
+    5% {
+
+        content: "Free|";
+
+    }
+
+    6% {
+
+        content: "Freel|";
+
+    }
+
+    7% {
+
+        content: "Freela|";
+
+    }
+
+    8% {
+
+        content: "Freelan|";
+
+    }
+
+    9% {
+
+        content: "Freelanc|";
+
+    }
+
+    10% {
+
+        content: "Freelance|";
+
+    }
+
+    11% {
+
+        content: "Freelancer|";
+
+    }
+
+    12% {
+
+        content: "Freelancer|";
+
+    }
+
+    13% {
+
+        content: "Freelancer|";
+
+    }
+
+    14% {
+
+        content: "Freelance|";
+
+    }
+
+    15% {
+
+        content: "Freelanc|";
+
+    }
+
+    16% {
+
+        content: "Freelan|";
+
+    }
+
+    17% {
+
+        content: "Freela|";
+
+    }
+
+    18% {
+
+        content: "Freel|";
+
+    }
+
+    19% {
+
+        content: "Free|";
+
+    }
+
+    20% {
+
+        content: "Fre|";
+
+    }
+
+    21% {
+
+        content: "Fr|";
+
+    }
+
+    22% {
+
+        content: "F|";
+
+    }
+
+    23% {
+
+        content: "|";
+
+    }
+
+    24% {
+
+        content: "|";
+
+    }
+
+    25% {
+
+        content: "|";
+
+    }
+
+
+    26% {
+
+        content: "P|";
+
+    }
+
+    27% {
+
+        content: "Ph|";
+
+    }
+
+    28% {
+
+        content: "Pho|";
+
+    }
+
+    29% {
+
+        content: "Phot|";
+
+    }
+
+    30% {
+
+        content: "Photo|";
+
+    }
+
+    31% {
+
+        content: "Photog|";
+
+    }
+
+    32% {
+
+        content: "Photogr|";
+
+    }
+
+    33% {
+
+        content: "Photogra|";
+
+    }
+
+    34% {
+
+        content: "Photograp|";
+
+    }
+
+
+    35% {
+
+        content: "Photograph|";
+
+    }
+
+    36% {
+
+        content: "Photographe|";
+
+    }
+
+    37% {
+
+        content: "Photographer|";
+
+    }
+
+    38% {
+
+        content: "Photographer|";
+
+    }
+
+
+    39% {
+
+        content: "Photographer|";
+
+    }
+
+    40% {
+
+        content: "Photographe|";
+
+    }
+
+    41% {
+
+        content: "Photograph|";
+
+    }
+
+
+    42% {
+
+        content: "Photograp|";
+
+    }
+
+    43% {
+
+        content: "Photogra|";
+
+    }
+
+    44% {
+
+        content: "Photogr|";
+
+    }
+
+    45% {
+
+        content: "Photog|";
+
+    }
+
+    46% {
+
+        content: "Photo|";
+
+    }
+
+    47% {
+
+        content: "Phot|";
+
+    }
+
+    48% {
+
+        content: "Pho|";
+
+    }
+
+    49% {
+
+        content: "Ph|";
+
+    }
+
+    50% {
+
+        content: "P|";
+
+    }
+
+    51% {
+
+        content: "|";
+
+    }
+
+    52% {
+
+        content: "|";
+
+    }
+
+    53% {
+
+        content: "|";
+
+    }
+
+    54% {
+
+        content: "D|";
+
+    }
+
+    55% {
+
+        content: "De|";
+
+    }
+
+    56% {
+
+        content: "Des|";
+
+    }
+
+    57% {
+
+        content: "Desi|";
+
+    }
+
+    58% {
+
+        content: "Desig|";
+
+    }
+
+
+    59% {
+
+        content: "Design|";
+
+    }
+
+    60% {
+
+        content: "Designe|";
+
+    }
+
+    61% {
+
+        content: "Designer|";
+
+    }
+
+    62% {
+
+        content: "Designer|";
+
+    }
+
+    63% {
+
+        content: "Designer|";
+
+    }
+
+    64% {
+
+        content: "Designe|";
+
+    }
+
+
+    65% {
+
+        content: "Design|";
+
+    }
+
+    66% {
+
+        content: "Desig|";
+
+    }
+
+
+    67% {
+
+        content: "Desi|";
+
+    }
+
+    68% {
+
+        content: "Des|";
+
+    }
+
+    69% {
+
+        content: "De|";
+
+    }
+
+
+    70% {
+
+        content: "D|";
+
+    }
+
+    71% {
+
+        content: "|";
+
+    }
+
+    72% {
+
+        content: "|";
+
+    }
+
+    73% {
+
+        content: "|";
+
+    }
+
+    74% {
+
+        content: "D|";
+
+    }
+
+    75% {
+
+        content: "De|";
+
+    }
+
+
+    76% {
+
+        content: "Dev|";
+
+    }
+
+    77% {
+
+        content: "Deve|";
+
+    }
+
+    78% {
+
+        content: "Devel|";
+
+    }
+
+    79% {
+
+        content: "Develo|";
+
+    }
+
+    80% {
+
+        content: "Develop|";
+
+    }
+
+    81% {
+
+        content: "Develope|";
+
+    }
+
+    82% {
+
+        content: "Developer|";
+
+    }
+
+    83% {
+
+        content: "Developer|";
+
+    }
+
+    84% {
+
+        content: "Developer|";
+
+    }
+
+    85% {
+
+        content: "Develope|";
+
+    }
+
+    86% {
+
+        content: "Develop|";
+
+    }
+
+    87% {
+
+        content: "Develo|";
+
+    }
+
+    88% {
+
+        content: "Devel|";
+
+    }
+
+    89% {
+
+        content: "Deve|";
+
+    }
+
+    90% {
+
+        content: "Dev|";
+
+    }
+
+    91% {
+
+        content: "De|";
+
+    }
+
+    92% {
+
+        content: "D|";
+
+    }
+
+    100% {
+
+        content: "|";
+
+    }
+
+
+
+
+}
+
+/* About Me */
+
+.aboutline {
+
+    height: 3px;
+    width : 15%;
+}
+
+.services-line {
+
+    height: 3px;
+    width : 15%;
+}
+
+.progress {
+
+    background-color: #cde1f8;
+    margin          : 0.5rem 0 1.2rem 0;
+    border-radius   : 0;
+    height          : 0.7rem;
+}
+
+/* Services */
+
+
+.services-line,
+.portfolio-line,
+.blog-line {
+
+    height: 3px;
+    width : 5%;
+}
+
+
+.services-circle {
+
+
+    width     : 6rem;
+    height    : 6rem;
+    border    : 10px solid blue;
+    padding   : 50px;
+    transition: all 1s;
+}
+
+#services .item:hover .services-circle {
+
+    background-color: blue;
+    border          : 10px solid #CDE0F8;
+    color           : #f5f5f5;
+
+}
+
+
+/* Counters */
+
+
+#counter .container-fluid {
+
+    background-image     : url(../images/counters-bg.jpg);
+    background-position  : center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+
+#counter .container-fluid .counter-circle {
+
+    border : 10px solid #CDE0F8;
+    color  : #f5f5f5;
+    width  : 6rem;
+    height : 6rem;
+    padding: 50px;
+
+}
+
+
+#portfolio .container .portfolio-circle {
+
+    border: 2px solid #0078ff;
+    color : #0078ff;
+    width : 2.5rem;
+    height: 2.5rem;
+
+}
+
+#portfolio .container .item-portfolio img {
+
+    transition: all 1s;
+}
+
+#portfolio .container .item-portfolio:hover img {
+
+    transform: scale(1.1);
+}
+
+
+/* Portfolio */
+
+
+/* Carousel */
+
+.carousel-indicators [data-bs-target] {
+
+    height: 12px;
+    width : 12px;
+
+}
+
+#carousel .container-fluid {
+
+    background-image     : url(../images/overlay-bg.jpg);
+    background-position  : center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+
+/* Blog */
+
+
+.blog-name img {
+
+    width: 10%;
+
+}
+
+/* Contact */
+
+
+#contact .container-fluid {
+
+    background-image     : url(../images/overlay-bg.jpg);
+    background-position  : center;
+    background-size      : cover;
+    background-attachment: fixed;
+}
+
+.contact-line {
+
+    height: 3px;
+    width : 20%;
+}
+
+#contact .container-fluid .contact-circle {
+
+    border: 2px solid #0078ff;
+    width : 2.5rem;
+    height: 2.5rem;
+
+}
+
+
+#contact .container-fluid .item .fa-brands {
+
+    color     : black;
+    transition: all 0.3s;
+
+}
+
+#contact .container-fluid .item a:hover i {
+
+    color: #0078ff;
+
+}
